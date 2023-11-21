@@ -13,11 +13,12 @@ public class Livro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String titulo;
+    
+    
     public Long getId() {
         return id;
     }
-    private String titulo;
-    
     public String getTitulo() {
         return titulo;
     }
@@ -28,6 +29,6 @@ public class Livro {
     public void setId(Long id2) {
     }
 
-      @ManyToMany(mappedBy = "livros")
+    @ManyToMany(mappedBy = "livros")
     private Set<Emprestimo> emprestimos = new HashSet<>();
 }

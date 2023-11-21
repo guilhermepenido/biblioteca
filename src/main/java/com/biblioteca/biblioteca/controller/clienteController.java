@@ -21,7 +21,7 @@ import com.biblioteca.biblioteca.service.ClienteService;
  * ususarioController
  */
 @RestController
-@RequestMapping("/usuarios")
+@RequestMapping("/clientes")
 public class clienteController {
 
     private ClienteService clienteService;
