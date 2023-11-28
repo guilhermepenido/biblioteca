@@ -17,7 +17,7 @@ Este projeto é uma aplicação de exemplo para um sistema de biblioteca, permit
 
 ## Configuração do Ambiente de Desenvolvimento
 
-1. Clone este repositório: `git clone https://github.com/guilhermepenido/sistema-biblioteca.git`
+1. Clone este repositório: `git clone git@github.com:guilhermepenido/biblioteca.git`
 2. Navegue até o diretório do projeto: `cd sistema-biblioteca`
 3. Configure seu banco de dados MySQL:
    - Crie um banco de dados chamado `biblioteca`.
